@@ -1,37 +1,35 @@
-
-.paperImg, .image{
+.paperImg,
+.image {
     width: 250px;
     height: 150px;
-    border: 2px lightgray solid;
+    border: 2px rgb(255, 255, 255) solid;
     padding-right: 3%;
     margin-right: 3%;
     margin-left: 5%
 }
-table{
+
+table {
     width: 100%;
-    margin-top:2%;
+    margin-top: 2%;
 }
-tr{
+
+tr {
     /*margin-top: 10%*/
     display: block;
-    margin:  0 0 20px 0;
+    margin: 0 0 20px 0;
 }
-p{
+
+h2.tittle {
     font-size: 1.3rem;
     font-family: "\5b8b\4f53", cursive, sans-serif;
     hyphens: auto;
     color: black;
 }
-#second{
-	width: 75%;
-    color: black;
-    padding-left:2%;
-	/*padding-bottom: 3.5%;*/
+
+.borderPicture {
+    padding: 2em;
 }
-#first{
-	width: 20%;
-	margin-left: -3%;
-	padding-left: -3%;
-/*	margin-right:3%;
-	padding-right: 3%;*/
+
+td.h2 {
+    font-size: 3px;
 }
