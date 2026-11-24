@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Publications — Carlos Quijano-Chavez</title>
+  <meta name="description" content="Academic publications, demos, and animations by Carlos Quijano-Chavez in Situated Analytics, Immersive Analytics, and AR/VR." />
+  <link rel="icon" href="image/icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="site-brand" href="index.html">Carlos Quijano-Chavez<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html" class="is-active">Publications</a></li>
+          <li><a href="files/cv_carlos.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Publications</h1>
+      <p>
+        Peer-reviewed papers, workshops, and posters on Situated Analytics, Immersive Analytics, and Augmented/Virtual Reality.
+      </p>
+      <div class="filter-bar" role="group" aria-label="Filter publications by type">
+        <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="paper" type="button">Journal &amp; Conference</button>
+        <button class="filter-btn" data-filter="workshop" type="button">Workshops</button>
+        <button class="filter-btn" data-filter="poster" type="button">Posters</button>
+      </div>
+    </section>
+
+    <!-- Visual Publication Cards (populated from data/site-data.js) -->
+    <section class="publications-grid" id="publications-grid" aria-label="Publication list"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="current-year"></span> Carlos Quijano-Chavez</span>
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </footer>
+
+  <script src="data/site-data.js"></script>
+  <script src="assets/js/render.js"></script>
+</body>
+</html>
